@@ -1,0 +1,6 @@
+framework module Pods_MNIST_ios {
+  umbrella header "Pods-MNIST-ios-umbrella.h"
+
+  export *
+  module * { export * }
+}

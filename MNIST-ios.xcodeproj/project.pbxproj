@@ -1,0 +1,760 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B272C7277AA242C4524BF90 /* Pods_MNIST_ios_MNIST_iosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA7D32D1C4FF0C80CB994D9C /* Pods_MNIST_ios_MNIST_iosUITests.framework */; };
+		5176816F9796510F9A0E8723 /* Pods_MNIST_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99725E1F26F8FD626A9A1A9B /* Pods_MNIST_ios.framework */; };
+		E063E697C380817EEBFA36EF /* Pods_MNIST_iosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93F8950F9E6528E4C6AC25F0 /* Pods_MNIST_iosTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		832376652E30AFEE00A719B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8323764F2E30AFEE00A719B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 832376562E30AFEE00A719B6;
+			remoteInfo = "MNIST-ios";
+		};
+		8323766F2E30AFEE00A719B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8323764F2E30AFEE00A719B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 832376562E30AFEE00A719B6;
+			remoteInfo = "MNIST-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08ED03830856FCC45BFB32A2 /* Pods-MNIST-iosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MNIST-iosTests.release.xcconfig"; path = "Target Support Files/Pods-MNIST-iosTests/Pods-MNIST-iosTests.release.xcconfig"; sourceTree = "<group>"; };
+		39AB4B034EDAC7A135104C5A /* Pods-MNIST-ios-MNIST-iosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MNIST-ios-MNIST-iosUITests.debug.xcconfig"; path = "Target Support Files/Pods-MNIST-ios-MNIST-iosUITests/Pods-MNIST-ios-MNIST-iosUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		832376572E30AFEE00A719B6 /* MNIST-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MNIST-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		832376642E30AFEE00A719B6 /* MNIST-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MNIST-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8323766E2E30AFEE00A719B6 /* MNIST-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MNIST-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93F8950F9E6528E4C6AC25F0 /* Pods_MNIST_iosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MNIST_iosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99725E1F26F8FD626A9A1A9B /* Pods_MNIST_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MNIST_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BA543301391A865BA7CB10D /* Pods-MNIST-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MNIST-ios.debug.xcconfig"; path = "Target Support Files/Pods-MNIST-ios/Pods-MNIST-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		9C8A5657121304C6D1B55E83 /* Pods-MNIST-ios-MNIST-iosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MNIST-ios-MNIST-iosUITests.release.xcconfig"; path = "Target Support Files/Pods-MNIST-ios-MNIST-iosUITests/Pods-MNIST-ios-MNIST-iosUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9D4961CF763C05001036B76A /* Pods-MNIST-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MNIST-ios.release.xcconfig"; path = "Target Support Files/Pods-MNIST-ios/Pods-MNIST-ios.release.xcconfig"; sourceTree = "<group>"; };
+		EE526A60A5EC28BB9286805C /* Pods-MNIST-iosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MNIST-iosTests.debug.xcconfig"; path = "Target Support Files/Pods-MNIST-iosTests/Pods-MNIST-iosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FA7D32D1C4FF0C80CB994D9C /* Pods_MNIST_ios_MNIST_iosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MNIST_ios_MNIST_iosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		832376592E30AFEE00A719B6 /* MNIST-ios */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "MNIST-ios";
+			sourceTree = "<group>";
+		};
+		832376672E30AFEE00A719B6 /* MNIST-iosTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "MNIST-iosTests";
+			sourceTree = "<group>";
+		};
+		832376712E30AFEE00A719B6 /* MNIST-iosUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "MNIST-iosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		832376542E30AFEE00A719B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5176816F9796510F9A0E8723 /* Pods_MNIST_ios.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		832376612E30AFEE00A719B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E063E697C380817EEBFA36EF /* Pods_MNIST_iosTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8323766B2E30AFEE00A719B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B272C7277AA242C4524BF90 /* Pods_MNIST_ios_MNIST_iosUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0352418793C1A050C102C9B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9BA543301391A865BA7CB10D /* Pods-MNIST-ios.debug.xcconfig */,
+				9D4961CF763C05001036B76A /* Pods-MNIST-ios.release.xcconfig */,
+				39AB4B034EDAC7A135104C5A /* Pods-MNIST-ios-MNIST-iosUITests.debug.xcconfig */,
+				9C8A5657121304C6D1B55E83 /* Pods-MNIST-ios-MNIST-iosUITests.release.xcconfig */,
+				EE526A60A5EC28BB9286805C /* Pods-MNIST-iosTests.debug.xcconfig */,
+				08ED03830856FCC45BFB32A2 /* Pods-MNIST-iosTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		237AAAB731EF22A7400E47A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99725E1F26F8FD626A9A1A9B /* Pods_MNIST_ios.framework */,
+				FA7D32D1C4FF0C80CB994D9C /* Pods_MNIST_ios_MNIST_iosUITests.framework */,
+				93F8950F9E6528E4C6AC25F0 /* Pods_MNIST_iosTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8323764E2E30AFEE00A719B6 = {
+			isa = PBXGroup;
+			children = (
+				832376592E30AFEE00A719B6 /* MNIST-ios */,
+				832376672E30AFEE00A719B6 /* MNIST-iosTests */,
+				832376712E30AFEE00A719B6 /* MNIST-iosUITests */,
+				832376582E30AFEE00A719B6 /* Products */,
+				0352418793C1A050C102C9B9 /* Pods */,
+				237AAAB731EF22A7400E47A8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		832376582E30AFEE00A719B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				832376572E30AFEE00A719B6 /* MNIST-ios.app */,
+				832376642E30AFEE00A719B6 /* MNIST-iosTests.xctest */,
+				8323766E2E30AFEE00A719B6 /* MNIST-iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		832376562E30AFEE00A719B6 /* MNIST-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 832376782E30AFEE00A719B6 /* Build configuration list for PBXNativeTarget "MNIST-ios" */;
+			buildPhases = (
+				D7C5715C55546EF6BC0756C4 /* [CP] Check Pods Manifest.lock */,
+				832376532E30AFEE00A719B6 /* Sources */,
+				832376542E30AFEE00A719B6 /* Frameworks */,
+				832376552E30AFEE00A719B6 /* Resources */,
+				55C485AD5DF33A0515DDBF97 /* [CP] Copy Pods Resources */,
+				A3A36ED529DC5013F8A0CCB1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				832376592E30AFEE00A719B6 /* MNIST-ios */,
+			);
+			name = "MNIST-ios";
+			productName = "MNIST-ios";
+			productReference = 832376572E30AFEE00A719B6 /* MNIST-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		832376632E30AFEE00A719B6 /* MNIST-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8323767B2E30AFEE00A719B6 /* Build configuration list for PBXNativeTarget "MNIST-iosTests" */;
+			buildPhases = (
+				44CC5FA3468F8769D1466AB3 /* [CP] Check Pods Manifest.lock */,
+				832376602E30AFEE00A719B6 /* Sources */,
+				832376612E30AFEE00A719B6 /* Frameworks */,
+				832376622E30AFEE00A719B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				832376662E30AFEE00A719B6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				832376672E30AFEE00A719B6 /* MNIST-iosTests */,
+			);
+			name = "MNIST-iosTests";
+			productName = "MNIST-iosTests";
+			productReference = 832376642E30AFEE00A719B6 /* MNIST-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8323766D2E30AFEE00A719B6 /* MNIST-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8323767E2E30AFEE00A719B6 /* Build configuration list for PBXNativeTarget "MNIST-iosUITests" */;
+			buildPhases = (
+				FAB8C7016E839D49BD27177A /* [CP] Check Pods Manifest.lock */,
+				8323766A2E30AFEE00A719B6 /* Sources */,
+				8323766B2E30AFEE00A719B6 /* Frameworks */,
+				8323766C2E30AFEE00A719B6 /* Resources */,
+				2DE59C3A0C0F3432097E2E6D /* [CP] Copy Pods Resources */,
+				B49F13EC41B8FD60D672B720 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				832376702E30AFEE00A719B6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				832376712E30AFEE00A719B6 /* MNIST-iosUITests */,
+			);
+			name = "MNIST-iosUITests";
+			productName = "MNIST-iosUITests";
+			productReference = 8323766E2E30AFEE00A719B6 /* MNIST-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8323764F2E30AFEE00A719B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					832376562E30AFEE00A719B6 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					832376632E30AFEE00A719B6 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 832376562E30AFEE00A719B6;
+					};
+					8323766D2E30AFEE00A719B6 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 832376562E30AFEE00A719B6;
+					};
+				};
+			};
+			buildConfigurationList = 832376522E30AFEE00A719B6 /* Build configuration list for PBXProject "MNIST-ios" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8323764E2E30AFEE00A719B6;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 832376582E30AFEE00A719B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				832376562E30AFEE00A719B6 /* MNIST-ios */,
+				832376632E30AFEE00A719B6 /* MNIST-iosTests */,
+				8323766D2E30AFEE00A719B6 /* MNIST-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		832376552E30AFEE00A719B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		832376622E30AFEE00A719B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8323766C2E30AFEE00A719B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2DE59C3A0C0F3432097E2E6D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MNIST-ios-MNIST-iosUITests/Pods-MNIST-ios-MNIST-iosUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MNIST-ios-MNIST-iosUITests/Pods-MNIST-ios-MNIST-iosUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MNIST-ios-MNIST-iosUITests/Pods-MNIST-ios-MNIST-iosUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44CC5FA3468F8769D1466AB3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MNIST-iosTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55C485AD5DF33A0515DDBF97 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MNIST-ios/Pods-MNIST-ios-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MNIST-ios/Pods-MNIST-ios-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MNIST-ios/Pods-MNIST-ios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3A36ED529DC5013F8A0CCB1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MNIST-ios/Pods-MNIST-ios-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MNIST-ios/Pods-MNIST-ios-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MNIST-ios/Pods-MNIST-ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B49F13EC41B8FD60D672B720 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MNIST-ios-MNIST-iosUITests/Pods-MNIST-ios-MNIST-iosUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MNIST-ios-MNIST-iosUITests/Pods-MNIST-ios-MNIST-iosUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MNIST-ios-MNIST-iosUITests/Pods-MNIST-ios-MNIST-iosUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7C5715C55546EF6BC0756C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MNIST-ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAB8C7016E839D49BD27177A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MNIST-ios-MNIST-iosUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		832376532E30AFEE00A719B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		832376602E30AFEE00A719B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8323766A2E30AFEE00A719B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		832376662E30AFEE00A719B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 832376562E30AFEE00A719B6 /* MNIST-ios */;
+			targetProxy = 832376652E30AFEE00A719B6 /* PBXContainerItemProxy */;
+		};
+		832376702E30AFEE00A719B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 832376562E30AFEE00A719B6 /* MNIST-ios */;
+			targetProxy = 8323766F2E30AFEE00A719B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		832376762E30AFEE00A719B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		832376772E30AFEE00A719B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		832376792E30AFEE00A719B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BA543301391A865BA7CB10D /* Pods-MNIST-ios.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bluepark.MNIST-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8323767A2E30AFEE00A719B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D4961CF763C05001036B76A /* Pods-MNIST-ios.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bluepark.MNIST-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8323767C2E30AFEE00A719B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE526A60A5EC28BB9286805C /* Pods-MNIST-iosTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bluepark.MNIST-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MNIST-ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MNIST-ios";
+			};
+			name = Debug;
+		};
+		8323767D2E30AFEE00A719B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08ED03830856FCC45BFB32A2 /* Pods-MNIST-iosTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bluepark.MNIST-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MNIST-ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MNIST-ios";
+			};
+			name = Release;
+		};
+		8323767F2E30AFEE00A719B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39AB4B034EDAC7A135104C5A /* Pods-MNIST-ios-MNIST-iosUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bluepark.MNIST-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MNIST-ios";
+			};
+			name = Debug;
+		};
+		832376802E30AFEE00A719B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C8A5657121304C6D1B55E83 /* Pods-MNIST-ios-MNIST-iosUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bluepark.MNIST-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MNIST-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		832376522E30AFEE00A719B6 /* Build configuration list for PBXProject "MNIST-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				832376762E30AFEE00A719B6 /* Debug */,
+				832376772E30AFEE00A719B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		832376782E30AFEE00A719B6 /* Build configuration list for PBXNativeTarget "MNIST-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				832376792E30AFEE00A719B6 /* Debug */,
+				8323767A2E30AFEE00A719B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8323767B2E30AFEE00A719B6 /* Build configuration list for PBXNativeTarget "MNIST-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8323767C2E30AFEE00A719B6 /* Debug */,
+				8323767D2E30AFEE00A719B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8323767E2E30AFEE00A719B6 /* Build configuration list for PBXNativeTarget "MNIST-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8323767F2E30AFEE00A719B6 /* Debug */,
+				832376802E30AFEE00A719B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8323764F2E30AFEE00A719B6 /* Project object */;
+}
